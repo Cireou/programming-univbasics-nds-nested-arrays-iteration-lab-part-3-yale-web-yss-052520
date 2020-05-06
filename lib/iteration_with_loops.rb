@@ -4,7 +4,7 @@ def join_nested_strings(src)
   res = ""
   for r in 0...src.length do
     for c in 0...src[r].length do 
-      if src[r][c].instance_of?(String) do
+      if src[r][c].instance_of?(String)
         puts 1
       end
     end
